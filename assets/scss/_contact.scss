@@ -152,6 +152,10 @@
                     text-transform: capitalize;
                     color: $text-color;
                     outline: none;
+
+                    &[type="email"], &[name="email"], &[name="Email"] {
+                        text-transform: none !important;
+                    }
                 }
 
                 textarea {

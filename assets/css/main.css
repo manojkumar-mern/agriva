@@ -4819,6 +4819,14 @@ span {
   color: var(--text);
   outline: none;
 }
+.contact-wrapper .contact-content .contact-form .form-clt input[type="email"],
+.contact-wrapper .contact-content .contact-form .form-clt input[name="email"],
+.contact-wrapper .contact-content .contact-form .form-clt input[name="Email"],
+input[type="email"],
+input[name="email"],
+input[name="Email"] {
+  text-transform: none !important;
+}
 .contact-wrapper .contact-content .contact-form .form-clt textarea {
   padding-bottom: 0px;
   resize: none;
